@@ -2,9 +2,10 @@
 
 """Setup script for before_after."""
 
-import setuptools
+__project__ = 'before_after'
+__version__ = '1.0.1'
 
-from before_after import __project__, __version__
+import setuptools
 
 
 README = open('README.rst').read()

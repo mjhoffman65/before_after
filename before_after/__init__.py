@@ -1,9 +1,5 @@
 """Package for before_after."""
 
-__project__ = 'before_after'
-__version__ = '1.0.1'
-
-VERSION = __project__ + '-' + __version__
 
 PYTHON_VERSION = 2, 7
 
@@ -13,7 +9,6 @@ if not sys.version_info >= PYTHON_VERSION:  # pragma: no cover (manual test)
 
 
 from contextlib import contextmanager
-from functools import wraps
 import wrapt
 
 
